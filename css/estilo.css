@@ -45,6 +45,7 @@ header ul li a {
     text-decoration: none;
     color: var(--primary);
     font-size: 25px;
+
 }
 
 main{
@@ -57,12 +58,13 @@ main picture img {
    margin-right: auto;
 }
 
+
+
 footer {
     background-color: var(--secundary);
     height: 3rem;
     display: flex;
     align-items: center;
-
 }
 
 footer > div {
@@ -78,20 +80,35 @@ main > section.auth {
     justify-content: center;
   }
   main > section.auth > h1 {
-    color: var(--primary);
+    color: var(--secundary);
     font-weight: 500;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+ 
   }
- main > section.auth > form {
+
+  main > section.auth > form {
     background-color:#000000;
-    border: 0.2rem solid var(--third);
+    border: 0.2rem solid var(--secundary);
     border-radius: 1rem;
     padding: 1.5rem;
   }
+
+  main > section.auth > form {
+    background-color:#000000;
+    border: 0.2rem solid var(--secundary);
+    border-radius: 1rem;
+  }
+
+  main > section.auth > form > label {
+    color: var(--primary);
+    font-size: 20px;
+
+  }
+
   main > section.auth > form > div {
-    background-color:#FFFFFF;
-    border: 0.15rem solid var(--third);
+    background-color:#ffffff;
+    border: 0.15rem solid var(--secundary);
     border-radius: 0.6rem;
     display: flex;
     margin: 0.5rem 0;
@@ -100,23 +117,33 @@ main > section.auth {
     height: 2.5rem;
     padding: 0.3rem;
   }
+
   main > section.auth > form > div > input {
-    width: 100%;
-    font-size: 1rem;
-    border: 0;
-    background-color: transparent;
-  }
-  main > section.auth > form > p > a {
-    text-decoration: none;
-    color: var(--white);
+    width: 100%; 
+    color: var(--secundary);
     font-weight: 500;
   }
+
+  main > section.auth > form > p {
+
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
+  main > section.auth > form > p > a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
   main > section.auth > form > p > button {
-    background-color: var(--third);
-    color: var(--white);
-    padding: 0.6rem;
+    background-color: var(white);
+    color: var(--secundary);
+    padding: 0.2rem;
     border: 0;
     border-radius: 0.6rem;
-    width: 5rem;
+    width: 4rem;
     margin-left: 0.5rem;
+    font-size: 15px;
   }
