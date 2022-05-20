@@ -72,6 +72,10 @@ footer > div {
     align-items: center;
 }
 
+footer div a img{
+  margin: 5px;
+}
+
 main > section.auth {
     height: 60vh;
     display: flex;
